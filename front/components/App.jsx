@@ -130,7 +130,7 @@ export default class App extends React.Component {
               <CustomCheckbox
                 checked={ this.state.smartWordsDetection }
                 onChange={ this.smartDetectionChange.bind(this) }>
-                Включить <del>не очень</del> очень умное распознавание словосочетаний
+                Включить распознавание словосочетаний
               </CustomCheckbox>
               <WordsTopTable words={ this.state.words } />
             </div>
